@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: bgu.spl.mics.MessageBusImplTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! - in bgu.spl.mics.MessageBusImplTest
+completeTest  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at bgu.spl.mics.MessageBusImplTest.completeTest(MessageBusImplTest.java:50)
+
+subscribeEventTest  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <bgu.spl.mics.application.messages.AttackEvent@569cfc36> but was: <bgu.spl.mics.application.services.HanSoloMicroservice@43bd930a>
+	at bgu.spl.mics.MessageBusImplTest.subscribeEventTest(MessageBusImplTest.java:34)
+
